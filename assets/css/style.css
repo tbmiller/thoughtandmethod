@@ -1265,7 +1265,8 @@ object {
    font-family: 'Bitter', "HelveticaNeue-Light", 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    color: #656565;
    font-size: 2em;
-   font-weight:bold;
+   font-weight:700;
+   text-transform:lowercase;
 }
 
 .site-header,
