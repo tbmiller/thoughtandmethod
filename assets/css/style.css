@@ -1285,7 +1285,7 @@ object {
 .site-header h1 {
   padding: 0 0 15px;
   margin: 0;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 .site-header h2 {
   padding-top: 5px;
