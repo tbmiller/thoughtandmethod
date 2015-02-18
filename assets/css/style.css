@@ -1389,11 +1389,20 @@ object {
   margin-bottom: 45px;
   margin-bottom: 2.8125rem;
 }
+
+.post-header {
+  text-align:center;
+}
+
+.post-header > * {
+  text-align:center !important;
+}
+
 .post-header,
 .post-content {
-/*  padding: 45px;
-  padding: 2.8125rem;*/
-  padding:20px;
+  padding: 45px;
+  padding: 2.8125rem;
+  /*padding:20px;*/
 }
 .post-header:after,
 .post-content:after {
