@@ -1800,8 +1800,11 @@ object {
   /* =================================== */
   /* Blog Post (blog feed) */
   .feed-item {
-    margin-bottom: 15px;
-    margin-bottom: 0.9375rem;
+    margin: 15px 0;
+    /*margin-bottom: 0.9375rem;*/
+    -webkit-box-shadow: 0px 1px 2px #CECDCA;
+  -moz-box-shadow: 0px 1px 2px #CECDCA;
+  box-shadow: 0px 1px 2px #CECDCA;
   }
   /* Blog Post (single post) */
   .post-single {
