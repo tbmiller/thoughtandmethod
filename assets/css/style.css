@@ -1256,6 +1256,10 @@ object {
   margin-top:20px;
 }
 
+.tag-header {
+  color: #E1E1E1;
+}
+
 .site-header,
 .site-footer,
 .blog-pagination {

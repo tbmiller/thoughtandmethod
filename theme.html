@@ -74,7 +74,7 @@
                 <div class="site-content">
                 {% if is_home or is_tag %}
                     {% if is_tag %}
-                    <h2 class="tag-header">Showing all posts tagged {{ tag }}:</h2>
+                    <h2 class="tag-header">thoughts tagged {{ tag }}:</h2>
                     {% endif %}
 
                     {% if posts %}
@@ -86,16 +86,16 @@
                                     <a href="{{ post.permalink }}">{{ post.title }}</a>
                                 </h2>
                                 <div class="post-metadata">
-                                    <div class="left">
+                                    <!-- <div class="left"> -->
                                         <p class="post-byline">Posted on <time datetime="{{ post.created_at }}" class="post-date">{{ post.created_at|date_format }}</time></p>
-                                    </div>
-                                    <div class="right">
+                                    <!-- </div> -->
+                                    <!-- <div class="right"> -->
                                         {% if post.tags %}
                                         <div class="post-tags">
-                                            Attributes [{{ post.tags|format_tags(humanize=True) }}]
+                                            <strong>Tags</strong><br />{{ post.tags|format_tags(humanize=True) }}
                                         </div>
                                         {% endif %}
-                                    </div>
+                                    <!-- </div> -->
                                 </div>
                             </header>
                             <div class="post-body">
