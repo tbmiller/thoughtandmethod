@@ -1010,7 +1010,7 @@ html {
 body {
   color: #363636;
   line-height: 1.625;
-  font-family: 'Raleway', "HelveticaNeue-Light", 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', "HelveticaNeue-Light", 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-size: 0.875rem;
@@ -1028,9 +1028,9 @@ h5,
 h6 {
   margin: 8px 0;
   color: #363636;
-  font-family: 'Raleway', "HelveticaNeue-Light", 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Bitter', "HelveticaNeue-Light", 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.4;
-  font-weight: 100;
+  font-weight: 700;
 }
 h1.title,
 h2.title,
