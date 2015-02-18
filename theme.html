@@ -92,7 +92,7 @@
                                     <!-- <div class="right"> -->
                                         {% if post.tags %}
                                         <div class="post-tags">
-                                            <strong>Tags</strong><br />{{ post.tags|format_tags(humanize=True) }}
+                                            <br />{{ post.tags|format_tags(humanize=True) }}
                                         </div>
                                         {% endif %}
                                     <!-- </div> -->
@@ -224,7 +224,7 @@
                 {% endif %}
                 </div>
                 <div class="site-footer">
-                    <ul class="social-links">
+                    <ul class="social-links" style="display:none;">
                         {% if site.twitter %}
                         <li>
                             <a href="{{ site.twitter }}" title="Twitter" target="_blank">
@@ -259,7 +259,8 @@
                             </a>
                         </li>
                     </ul>
-                    <p>All rights Reserved &copy; <a href="/">{{ site.name }}</a>.</p>
+                    <p><a href="/">{{ site.name }}</a>. All rights Reserved &copy; </p>
+                    <p>Designed & Curated by:<br /> <a class="logotype" href="http://www.travismillerweb.com/" target="_blank">Travis Miller</a></p>
                 </div>
             </div>
         </div>
